@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Mar 12, 2025 at 01:57 AM
+-- Generation Time: Mar 12, 2025 at 02:41 AM
 -- Server version: 10.4.32-MariaDB
 -- PHP Version: 8.2.12
 
@@ -58,8 +58,8 @@ CREATE TABLE `users` (
 --
 
 INSERT INTO `users` (`id`, `username`, `email`, `password`) VALUES
-(1, 'Habibullah Sirat', '1931291@iub.edu.bd', '12345'),
-(3, 'Nahian Noureen', '2320608@iub.edu.bd', '12345');
+(1, 'Habibullah Sirat', '1931291@iub.edu.bd', '23456'),
+(3, 'Nahian Noureen', '2320608@iub.edu.bd', '23456');
 
 -- --------------------------------------------------------
 
