@@ -52,11 +52,6 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         $uploadOk = 0;
     }
 
-    // if (file_exists($target_file)) {
-    //     echo "Sorry, file already exists.";
-    //     $uploadOk = 0;
-    // }
-
     if ($_FILES["fileToUpload"]["size"] > 50000000) {
         echo "Sorry, your file is too large.";
         $uploadOk = 0;

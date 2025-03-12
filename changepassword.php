@@ -63,7 +63,7 @@
             $conn->query($sql3);
         }
 
-        header('Location: ../userdashboard.php');
+        header('Location: userdashboard.php');
     }
 
 ?>

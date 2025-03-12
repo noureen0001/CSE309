@@ -72,7 +72,7 @@
 
         $sql = "INSERT INTO blog_t(user_id, content) VALUES('$id', '$new_content')";
         $conn->query($sql);
-        header('Location: user_dashboard.php');
+        header('Location: userdashboard.php');
     }
     $_SESSION['id'] = $id;
     $_SESSION['name'] = $name;
