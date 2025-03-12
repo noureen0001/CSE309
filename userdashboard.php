@@ -58,9 +58,9 @@
 
 <div style="width: 50%; background-color: rgb(181, 226, 222); margin-left: 30%; border-radius: 5px; border-style: none; padding: 5px; font-family: tahoma;">
 
-    <!-- <button style="background-color: black; border-style: none; border-radius: 5px; width: 10%; font-family: tahoma; color: white"><a style="color: white; text-decoration:none;" href="all_images.php">All Images</button> -->
-
-    <button style="background-color: black; border-style: none; border-radius: 5px; width: 10%; font-family: tahoma; color: white"><a style="color: white; text-decoration:none;" href="upload.php">Upload an Image</button>
+    <button style="background-color: black; border-style: none; border-radius: 5px; width: 10%; font-family: tahoma; color: white"><a style="color: white; text-decoration:none;" href="upload.php">Upload Profile Photo</button>
+    
+    <button style="background-color: black; border-style: none; border-radius: 5px; width: 10%; font-family: tahoma; color: white"><a style="color: white; text-decoration:none;" href="changepassword.php">Change Password</button>
 
     <button style="background-color: black; border-style: none; border-radius: 5px; width: 10%; font-family: tahoma; color: white"><a style="color: white; text-decoration:none;" href="login.html">Logout</button>
     
@@ -77,6 +77,7 @@
     $_SESSION['id'] = $id;
     $_SESSION['name'] = $name;
 ?>
+</div>
 
 </body>
 </html>
